@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -18,4 +18,79 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+.heroBg {
+  background-image: url('../../public/images/heroBg.svg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%; 
+  height: 600px;
+  border-radius: 15px;
+}
+
+.c1Bg {
+  background-image: url('../../public/images/cl1.svg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%; 
+  height: 560px;
+  border-radius: 15px;
+}
+
+.c2Bg {
+  background-image: url('../../public/images/cl2.svg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%; 
+  height: 560px;
+  border-radius: 15px;
+}
+
+.c3Bg {
+  background-image: url('../../public/images/cl3.svg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%; 
+  height: 600px;
+  border-radius: 15px;
+}
+
+.c4Bg {
+  background-image: url('../../public/images/cl4.svg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%; 
+  height: 560px;
+  border-radius: 15px;
+}
+
+.c5Bg {
+  background-image: url('../../public/images/cl5.svg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%; 
+  height: 560px;
+  border-radius: 15px;
+}
+
+.c6Bg {
+  background-image: url('../../public/images/cl6.svg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%; 
+  height: 560px;
+  border-radius: 15px;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 2px black; /* Outline thickness & color */
+  -webkit-text-fill-color: white; /* Inner text color */
 }
