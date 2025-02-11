@@ -1,13 +1,17 @@
 import React from "react";
+import Image from "next/image";
+import Img from "../../../public/images/login.svg";
 
 const Login = () => {
   return (
     <div className="w-full py-[30px] mt-[30px]">
       <div className="w-full px-[3%] mx-auto max-w-[1400px]">
-        <div className="w-full flex justify-between">
-          <div className="w-[50%]"></div>
-          <div className="w-[50%]">
-            <div className="bg-[#fff] rounded-[16px] px-[8%] py-[45px] flex-col flex justify-center items-center shadow-md">
+        <div className="w-full flex justify-between max-lg:flex-col gap-x-[5%]">
+          <div className="w-[48%] max-lg:hidden pt-[5%]">
+            <Image alt="icon" src={Img} />
+          </div>
+          <div className="w-[48%] max-lg:w-full">
+            <div className="bg-[#fff] rounded-[16px] px-[8%] py-[45px] flex-col flex justify-center items-center shadow-md max-md:shadow-none max-md:px-[4%]">
               <div className="bg-[#F8F8F8] w-full h-[60px] flex justify-center items-center text-[20px] font-[600]">
                 Login
               </div>

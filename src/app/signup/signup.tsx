@@ -1,13 +1,21 @@
 import React from "react";
+import Image from "next/image";
+import Img from "../../../public/images/signup.svg";
 
 const Signup = () => {
   return (
     <div className="w-full py-[30px] mt-[30px]">
       <div className="w-full px-[3%] mx-auto max-w-[1400px]">
-        <div className="w-full flex justify-between">
-          <div className="w-[50%]"></div>
-          <div className="w-[50%]">
-            <div className="bg-[#fff] rounded-[16px] px-[8%] py-[45px] flex-col flex justify-center items-center shadow-md">
+        <div className="w-full flex justify-between max-lg:flex-col gap-x-[5%]">
+          <div className="w-[48%] pt-[4%] max-lg:hidden">
+            <Image
+              alt="icon"
+              src={Img}
+              className="w-full h-auto object-cover"
+            />
+          </div>
+          <div className="w-[48%] max-lg:w-full">
+            <div className="bg-[#fff] rounded-[16px] px-[8%] py-[45px] flex-col flex justify-center items-center shadow-md max-md:shadow-none max-md:px-[4%]">
               <div className="bg-[#F8F8F8] w-full h-[60px] flex justify-center items-center text-[20px] font-[600]">
                 Create Account
               </div>
@@ -128,7 +136,7 @@ const Signup = () => {
                 </button>
 
                 <p className="text-[14px] font-[500] text-center mx-auto mt-[10px]">
-                  Already have an account?
+                  Already have an account? {" "}
                   <span className="text-[#DF3906]">Login</span>
                 </p>
               </div>

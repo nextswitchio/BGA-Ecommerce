@@ -94,3 +94,23 @@ body {
   -webkit-text-stroke: 2px black; /* Outline thickness & color */
   -webkit-text-fill-color: white; /* Inner text color */
 }
+
+@media screen and (max-width: 550px) {
+  .heroBg{
+    height: 380px;
+  }
+
+  .c3Bg, .c1Bg, .c2Bg, .c4Bg, .c5Bg, .c6Bg{
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .heroBg{
+    height: 340px;
+  }
+
+  .c3Bg, .c1Bg, .c2Bg, .c4Bg, .c5Bg, .c6Bg{
+    height: 340px;
+  }
+}

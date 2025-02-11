@@ -2,9 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Logo from "../../public/images/logo-white.svg";
 import { GrLocation } from "react-icons/gr";
+import { PiVanBold } from "react-icons/pi";
 import { RiFeedbackLine } from "react-icons/ri";
 import { IoGiftOutline } from "react-icons/io5";
-import { PiVanBold } from "react-icons/pi";
 import { FaInstagram } from "react-icons/fa";
 import { TbBrandTiktok } from "react-icons/tb";
 import { FiFacebook } from "react-icons/fi";
@@ -17,11 +17,11 @@ const Footer = () => {
       {/* Footer Section */}
       <footer
         id="footer"
-        className="py-[40px] px-[3%] w-[100%] mx-auto max-w-[1400px]"
+        className="py-[40px] px-[3%] max-md:px-[5%] w-[100%] mx-auto max-w-[1500px]"
       >
-        <div className="flex w-full mt-[70px]  pb-[50px]">
-          <div className="flex-1 flex justify-between">
-            <div className="w-[25%]">
+        <div className="flex w-full mt-[70px]  pb-[50px] max-lg:flex-col flex-row gap-y-[50px] ">
+          <div className="flex-1 flex justify-between max-lg:flex-col flex-row gap-y-[50px]">
+            <div className="w-[25%] max-lg:w-full">
               <Image alt="logo" src={Logo} />
 
               <div className="mt-[30px] flex flex-col gap-y-[15px]">
@@ -51,7 +51,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-[23%]">
+            <div className="w-[23%] max-lg:w-full">
               {/* <h3 className="text-[21px] font-[600] text-white">Products</h3> */}
 
               <div className="mt-[5px] flex flex-col gap-y-[15px]">
@@ -95,7 +95,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-[23%]">
+            <div className="w-[23%] max-lg:w-full">
               <h3 className="text-[21px] font-[600] text-white">
                 Customer Service
               </h3>
@@ -126,7 +126,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-[23%]">
+            <div className="w-[23%] max-lg:w-full">
               <h3 className="text-[21px] font-[600] text-white">Questions?</h3>
 
               <div className="mt-[15px] flex flex-col gap-y-[15px]">
@@ -154,7 +154,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="w-[25%]">
+          <div className="w-[25%] max-lg:w-full">
             <h3 className="text-[21px] font-[600] text-white">
               Subsribe for Emails
             </h3>

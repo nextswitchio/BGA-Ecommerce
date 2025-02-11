@@ -12,10 +12,10 @@ import Pre3 from "../../../public/images/p3.svg";
 
 const Preview = () => {
   return (
-    <div className="w-full py-[80px]">
-      <div className="w-full px-[3%] mx-auto max-w-[1400px]">
-        <div className="w-full flex gap-x-[4%]">
-          <div className="w-[60%] flex flex-wrap gap-x-[15px] gap-y-[15px] ">
+    <div className="w-full py-[80px] max-sm:py-[50px]">
+      <div className="w-full px-[5%] mx-auto max-w-[1400px]">
+        <div className="w-full flex gap-x-[4%] max-xlg:flex-col">
+          <div className="w-[60%] max-xlg:w-full flex flex-wrap gap-x-[12px] max-md:gap-x-[2%] gap-y-[15px] ">
             <Image
               alt="human"
               src={Pre1}
@@ -37,7 +37,7 @@ const Preview = () => {
               className="w-[49%] h-auto object-cover"
             />
           </div>
-          <div className="flex-1">
+          <div className="flex-1 max-xlg:mt-[30px]">
             <h1 className="text-[24px] font-[600] text-[#2E2E2E]">
               Retro Brown Jacket Coat Packing Shirt
             </h1>
